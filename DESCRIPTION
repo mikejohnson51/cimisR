@@ -1,0 +1,21 @@
+Package: cimisR
+Type: Package
+Title: cimisR
+Description: A set of functions find and get get data from CIMIS.
+Version: 0.0.1
+Authors@R: person("Mike", "Johnson", role = c("aut", "cre"), email = "mike.johnson@geog.ucsb.edu")
+Maintainer: Mike Johnson <jmj00@ucsb.edu>
+BugReports: https://github.com/mikejohnson51/cimisR/issues
+URL: https://github.com/mikejohnson51/cimisR
+Depends:
+    R(>= 3.3.0),
+    AOI
+Imports:
+    magrittr
+VignetteBuilder: knitr
+Remotes: mikejohnson51/AOI
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.1.0
+Suggests: testthat, knitter

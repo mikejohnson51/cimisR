@@ -1,0 +1,20 @@
+flags =  data.frame(flag = c('I', 'M','S','A','E','T','H','J','K','L','N','P','Q','R','Y'),
+description = c( 'Data value has no meaning/ignore',
+                 'Missing',
+                 'Sensor is not in service or data is out of sensor threshold',
+                 'Historical average',
+                 'Historical average of one of the sensors used to calculate a parameter',
+                 'Historical average of one of the sensors used to calculate a parameter',
+                 'Daily data value flagged when corresponding hourly data is flagged M, Q, and S',
+                 'Monthly data value flagged when some daily data are missing',
+                 'Monthly data value flagged when daily data values are flagged',
+                 'Monthly data value flagged when some daily data are missing and some are flagged',
+                 'Data value is not collected by this station. Quality test pending',
+                 'Quality test pending.',
+                 'All quality control could not be performed because a comparison sensor is severe',
+                 'Data is far out of historical limits',
+                 'Data is moderately out of historical limits'),
+
+category = c(rep('severe', 3), rep('informative',12)),
+stringsAsFactors = FALSE             
+)
